@@ -11,9 +11,9 @@ public class Scores {
         String inputSubjects = scanner.nextLine();
 
         for (int i = 0; i < subjects.length; i++) {
-            String subject = subjects[i];
+                String subject = subjects[i]; // subjects 배열의 번지수를 i라고 칭해 String subject로 변수를 선언한 듯함
 
-            if (subject.equals(inputSubjects)) {
+            if (subjects.equals(inputSubjects)) {
                 System.out.println(inputSubjects +" 점수는 " + scores[i] + "점입니다.");
             }
         }
